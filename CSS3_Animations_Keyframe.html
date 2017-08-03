@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS3_Animations_Keyframe</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        div img {
+            width: 50%;
+            height: 50%;
+            animation: move 5s linear infinite;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes move {
+            from {
+                margin-left: 0px;
+            }
+            to {
+                margin-left: 500px;
+            }
+            /*make it to circle with color change */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="./24cliff-800x500.jpg" alt="">
+    </div>
+</body>
+
+</html>
